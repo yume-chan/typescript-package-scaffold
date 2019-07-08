@@ -1,5 +1,7 @@
 # typescript-package-scaffold
 
+[![travis-ci](https://travis-ci.org/yume-chan/typescript-package-scaffold.svg?branch=master)](https://travis-ci.org/yume-chan/typescript-package-scaffold)
+
 *DESCRIPTION TO BE FILLED*
 
 - [typescript-package-scaffold](#typescript-package-scaffold)
