@@ -1,6 +1,7 @@
 # typescript-package-scaffold
 
 [![travis-ci](https://travis-ci.org/yume-chan/typescript-package-scaffold.svg?branch=master)](https://travis-ci.org/yume-chan/typescript-package-scaffold)
+[![Greenkeeper badge](https://badges.greenkeeper.io/yume-chan/typescript-package-scaffold.svg)](https://greenkeeper.io/)
 
 *DESCRIPTION TO BE FILLED*
 
