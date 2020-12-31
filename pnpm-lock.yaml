@@ -1,9 +1,11 @@
+dependencies:
+  tslib: 2.0.3
 devDependencies:
   '@types/jest': 26.0.14
   jest: 26.6.0
   ts-jest: 26.1.4_jest@26.6.0+typescript@4.0.3
   typescript: 4.0.3
-lockfileVersion: 5.1
+lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.8.3:
     dependencies:
@@ -334,7 +336,7 @@ packages:
       jest-haste-map: 26.6.0
       jest-message-util: 26.6.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
       jest-resolve-dependencies: 26.6.0
       jest-runner: 26.6.0
       jest-runtime: 26.6.0
@@ -404,7 +406,7 @@ packages:
       istanbul-lib-source-maps: 4.0.0
       istanbul-reports: 3.0.2
       jest-haste-map: 26.6.0
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
       jest-util: 26.6.0
       jest-worker: 26.5.0
       slash: 3.0.0
@@ -1994,7 +1996,7 @@ packages:
       jest-get-type: 26.3.0
       jest-jasmine2: 26.6.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
       jest-util: 26.6.0
       jest-validate: 26.6.0
       micromatch: 4.0.2
@@ -2183,7 +2185,7 @@ packages:
       integrity: sha512-HsNmL8vVIn1rL1GWA21Drpy9Cl+7GImwbWz/0fkWHrUXVzuaG7rP0vwLtE+/n70Mt0U8nPkz8fxioi3SC0wqhw==
   /jest-pnp-resolver/1.2.2_jest-resolve@26.6.0:
     dependencies:
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
     dev: true
     engines:
       node: '>=6'
@@ -2210,7 +2212,7 @@ packages:
       node: '>= 10.14.2'
     resolution:
       integrity: sha512-4di+XUT7LwJJ8b8qFEEDQssC5+aeVjLhvRICCaS4alh/EVS9JCT1armfJ3pnSS8t4o6659WbMmKVo82H4LuUVw==
-  /jest-resolve/26.6.0_jest-resolve@26.6.0:
+  /jest-resolve/26.6.0:
     dependencies:
       '@jest/types': 26.6.0
       chalk: 4.0.0
@@ -2223,8 +2225,6 @@ packages:
     dev: true
     engines:
       node: '>= 10.14.2'
-    peerDependencies:
-      jest-resolve: '*'
     resolution:
       integrity: sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ==
   /jest-runner/26.6.0:
@@ -2243,7 +2243,7 @@ packages:
       jest-haste-map: 26.6.0
       jest-leak-detector: 26.6.0
       jest-message-util: 26.6.0
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
       jest-runtime: 26.6.0
       jest-util: 26.6.0
       jest-worker: 26.5.0
@@ -2275,7 +2275,7 @@ packages:
       jest-message-util: 26.6.0
       jest-mock: 26.6.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
       jest-snapshot: 26.6.0
       jest-util: 26.6.0
       jest-validate: 26.6.0
@@ -2311,7 +2311,7 @@ packages:
       jest-haste-map: 26.6.0
       jest-matcher-utils: 26.6.0
       jest-message-util: 26.6.0
-      jest-resolve: 26.6.0_jest-resolve@26.6.0
+      jest-resolve: 26.6.0
       natural-compare: 1.4.0
       pretty-format: 26.6.0
       semver: 7.3.2
@@ -3623,6 +3623,10 @@ packages:
       typescript: '>=3.8 <4.0'
     resolution:
       integrity: sha512-Nd7diUX6NZWfWq6FYyvcIPR/c7GbEF75fH1R6coOp3fbNzbRJBZZAn0ueVS0r8r9ral1VcrpneAFAwB3TsVS1Q==
+  /tslib/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
   /tunnel-agent/0.6.0:
     dependencies:
       safe-buffer: 5.2.1
@@ -3911,4 +3915,5 @@ specifiers:
   '@types/jest': 26.0.14
   jest: 26.6.0
   ts-jest: 26.1.4
+  tslib: 2.0.3
   typescript: 4.0.3
