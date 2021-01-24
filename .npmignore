@@ -1,9 +1,15 @@
 .github
 .vscode
-coverage
-src/**.spec.ts
 
+# Test
+coverage
+**/*.spec.ts
+**/__helpers__
 jest.config.js
+
 pnpm-lock.yaml
 renovate.json
 tsconfig.json
+
+# Logs
+*.log
